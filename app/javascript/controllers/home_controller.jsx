@@ -1,4 +1,4 @@
-import { Controller } from "stimulus"
+import { Controller } from "@hotwired/stimulus"
 import ReactDOM from 'react-dom'
 import * as React from 'react'
 // import MUIComponent from '@mui/material/MUIComponentName'
