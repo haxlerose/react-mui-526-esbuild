@@ -1,0 +1,16 @@
+{
+  "name": "react-mui-526-esbuild",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.4.2",
+    "esbuild": "^0.14.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "stimulus": "^3.0.1"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/application.jsx --bundle --sourcemap --outdir=app/assets/builds"
+  }
+}
